@@ -44,23 +44,25 @@ if (command === "spotify-this-song") {
             if (err) {
             return console.log('Error occurred: ' + err);
             }
-        
+        console.log("----------------------------------------------------------");
         console.log("Artist: " + data.tracks.items[5].artists[0].name);
         console.log("Name: " + data.tracks.items[5].name);
         console.log("Link: " + data.tracks.items[5].preview_url);
         console.log("Album: " + data.tracks.items[5].album.name);
+        console.log("----------------------------------------------------------");
         });
     }
     else{
-        spotifyReq.search({ type: 'track', query: search }, function(err, data) {
+        spotifyReq.search({ type: 'track', query: search.toString() }, function(err, data) {
             if (err) {
             return console.log('Error occurred: ' + err);
             }
-        
-        console.log("Artist: " + data.tracks.items[0].album.artists[0]);
+        console.log("----------------------------------------------------------");
+        console.log("Artist: " + data.tracks.items[0].album.artists[0].name);
         console.log("Name: " + data.tracks.items[0].name);
         console.log("Link: " + data.tracks.items[0].preview_url);
         console.log("Album: " + data.tracks.items[0].album.name);
+        console.log("----------------------------------------------------------");
         });
     };
 };
@@ -74,6 +76,7 @@ if (command === "movie-this") {
         request("http://www.omdbapi.com/?apikey=trilogy&t=" + "Mr. Nobody", function(error, response, body){
             if (!error && response.statusCode == 200) {
                 var movJSON = JSON.parse(body);
+                console.log("----------------------------------------------------------");
                 console.log("Title: " + movJSON.Title + "\n");
                 console.log("Released: " + movJSON.Year + "\n");
                 console.log("IMDB Rating: " + movJSON.imdbRating + "\n");
@@ -82,6 +85,7 @@ if (command === "movie-this") {
                 console.log("Language: " + movJSON.Language + "\n");
                 console.log("Plot: " + movJSON.Plot + "\n");
                 console.log("Starring: " + movJSON.Actors);
+                console.log("----------------------------------------------------------");
             };
         });
     }
@@ -89,6 +93,7 @@ if (command === "movie-this") {
         request("http://www.omdbapi.com/?apikey=trilogy&t=" + search, function(error, response, body){
             if (!error && response.statusCode == 200) {
                 var movJSON = JSON.parse(body);
+                console.log("----------------------------------------------------------");
                 console.log("Title: " + movJSON.Title + "\n");
                 console.log("Released: " + movJSON.Year + "\n");
                 console.log("IMDB Rating: " + movJSON.imdbRating + "\n");
@@ -97,8 +102,37 @@ if (command === "movie-this") {
                 console.log("Language: " + movJSON.Language + "\n");
                 console.log("Plot: " + movJSON.Plot + "\n");
                 console.log("Starring: " + movJSON.Actors);
+                console.log("----------------------------------------------------------");
             };
         });
     };
+};
+
+//random.txt handling
+
+if (command === "do-what-it-says") {
+    fs.readFile("./random.txt", "utf8", function(error, data) {
+
+        if (error) {
+          return console.log(error);
+        }
+        else {
+            var textArr = data.split(",");
+            command = textArr[0];
+            search = textArr[1];
+
+            spotifyReq.search({ type: 'track', query: search.toString() }, function(err, data) {
+                if (err) {
+                return console.log('Error occurred: ' + err);
+                }
+            console.log("----------------------------------------------------------");
+            console.log("Artist: " + data.tracks.items[0].album.artists[0].name);
+            console.log("Name: " + data.tracks.items[0].name);
+            console.log("Link: " + data.tracks.items[0].preview_url);
+            console.log("Album: " + data.tracks.items[0].album.name);
+            console.log("----------------------------------------------------------");
+            });
+        };
+    });
 };
 
