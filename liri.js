@@ -24,6 +24,7 @@ function tweet() {
             for (i = 0; i < tweets.length; i++) {
                 console.log(tweets[i].text);
                 console.log("Created on: " + tweets[i].created_at + "\n");
+                fs.appendFile("./log.txt", "COMMAND: " + command + " " + search + "\n" + "RESULT: " + "\n" + tweets[i].text + "\n" + "Created on: " + tweets[i].created_at + "\n");
             }
         }
     });
@@ -50,6 +51,7 @@ if (command === "spotify-this-song") {
         console.log("Link: " + data.tracks.items[5].preview_url);
         console.log("Album: " + data.tracks.items[5].album.name);
         console.log("----------------------------------------------------------");
+        fs.appendFile("./log.txt", "COMMAND: " + command + " " + search + "\n" + "RESULT: " + "\n" + "Artist: " + data.tracks.items[5].artists[0].name + "\n" + "Name: " + data.tracks.items[5].name + "\n" + "Link: " + data.tracks.items[5].preview_url + "\n" + "Album: " + data.tracks.items[5].album.name + "\n");
         });
     }
     else{
@@ -63,6 +65,7 @@ if (command === "spotify-this-song") {
         console.log("Link: " + data.tracks.items[0].preview_url);
         console.log("Album: " + data.tracks.items[0].album.name);
         console.log("----------------------------------------------------------");
+        fs.appendFile("./log.txt", "COMMAND: " + command + " " + search + "\n" + "RESULT: " + "\n" + "Artist: " + data.tracks.items[0].album.artists[0].name + "\n" + "Name: " + data.tracks.items[0].name + "\n" + "Link: " + data.tracks.items[0].preview_url + "\n" + "Album: " + data.tracks.items[0].album.name + "\n");
         });
     };
 };
@@ -86,6 +89,7 @@ if (command === "movie-this") {
                 console.log("Plot: " + movJSON.Plot + "\n");
                 console.log("Starring: " + movJSON.Actors);
                 console.log("----------------------------------------------------------");
+                fs.appendFile("./log.txt", "COMMAND: " + command + " " + search + "\n" + "RESULT: " + "\n" + "Title: " + movJSON.Title + "\n" + "Released: " + movJSON.Year + "\n" + "IMDB Rating: " + movJSON.imdbRating + "\n" + "Rotten Tomatoes Rating: " + movJSON.Ratings[1].Value + "\n" + "Country: " + movJSON.Country + "\n" + "Language: " + movJSON.Language + "\n" + "Plot: " + movJSON.Plot + "\n" + "Starring: " + movJSON.Actors + "\n");
             };
         });
     }
@@ -103,6 +107,7 @@ if (command === "movie-this") {
                 console.log("Plot: " + movJSON.Plot + "\n");
                 console.log("Starring: " + movJSON.Actors);
                 console.log("----------------------------------------------------------");
+                fs.appendFile("./log.txt", "COMMAND: " + command + " " + search + "\n" + "RESULT: " + "\n" + "Title: " + movJSON.Title + "\n" + "Released: " + movJSON.Year + "\n" + "IMDB Rating: " + movJSON.imdbRating + "\n" + "Rotten Tomatoes Rating: " + movJSON.Ratings[1].Value + "\n" + "Country: " + movJSON.Country + "\n" + "Language: " + movJSON.Language + "\n" + "Plot: " + movJSON.Plot + "\n" + "Starring: " + movJSON.Actors + "\n");
             };
         });
     };
@@ -131,8 +136,8 @@ if (command === "do-what-it-says") {
             console.log("Link: " + data.tracks.items[0].preview_url);
             console.log("Album: " + data.tracks.items[0].album.name);
             console.log("----------------------------------------------------------");
+            fs.appendFile("./log.txt", "COMMAND: " + command + " " + search + "\n" + "RESULT: " + "\n" + "Artist: " + data.tracks.items[0].album.artists[0].name + "\n" + "Name: " + data.tracks.items[0].name + "\n" + "Link: " + data.tracks.items[0].preview_url + "\n" + "Album: " + data.tracks.items[0].album.name + "\n");
             });
         };
     });
 };
-

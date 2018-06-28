@@ -1,0 +1,102 @@
+COMMAND: spotify-this-song "I Want it That Way"
+INFO: 
+Artist: Backstreet Boys
+Name: I Want It That Way
+Link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=7c683a1ac1ab4738ad20095957424250
+Album: The Hits--Chapter One
+COMMAND: my-tweets undefined
+RESULT: 
+New music! Check out "Made Up Post" off of our new album Permanent Sound! https://t.co/0VQ0a3nYxY
+Created on: Sun Jun 24 16:52:53 +0000 2018
+COMMAND: my-tweets undefined
+RESULT: 
+@suhhseal Lonely lonely privatized space crafts I call home
+Created on: Mon May 14 14:08:56 +0000 2018
+COMMAND: my-tweets undefined
+RESULT: 
+@NicePriceBooks @hollowxhymns DRUM MACHINE WILL NEVER DIE BUT YOU WILL
+Created on: Thu May 17 23:01:58 +0000 2018
+COMMAND: my-tweets undefined
+RESULT: 
+@suhhseal Guitars, Teslas, etc.
+Created on: Mon May 14 14:03:09 +0000 2018
+COMMAND: my-tweets undefined
+RESULT: 
+The Born Agains tonight at Slims! Live and on stage and screen!
+Created on: Sat May 05 00:28:22 +0000 2018
+COMMAND: my-tweets undefined
+RESULT: 
+Love to think about the well adjusted person leaving this on people’s cars at the park. (Not my car! I’m always “ge… https://t.co/chnYaOi4q8
+Created on: Sun Apr 15 14:15:41 +0000 2018
+COMMAND: my-tweets undefined
+RESULT: 
+MIDI data? More like “My Intelligence Doubles Itself Every Time I Figure Out How This Shit Works” data
+Created on: Sat Apr 14 15:46:10 +0000 2018
+COMMAND: my-tweets undefined
+RESULT: 
+Excited to be playing with @Ganserband in 3 weeks (May 4th) at @SlimsRaleigh. Check out their music at… https://t.co/HvsITlVZlY
+Created on: Fri Apr 13 14:42:05 +0000 2018
+COMMAND: my-tweets undefined
+RESULT: 
+RT @signifyingwolf: Lyric book will be published. https://t.co/JOYP6vpiPn
+Created on: Mon Apr 09 21:58:34 +0000 2018
+COMMAND: my-tweets undefined
+RESULT: 
+Premade Marg mix?
+Created on: Sun Apr 08 00:24:33 +0000 2018
+COMMAND: my-tweets undefined
+RESULT: 
+“Join our ecstasy club” - MacKenzie Hare https://t.co/0Xfv1J695W
+Created on: Sat Apr 07 20:11:04 +0000 2018
+COMMAND: my-tweets undefined
+RESULT: 
+Now this is band merch https://t.co/aJdC8XeIED
+Created on: Sat Apr 07 13:14:42 +0000 2018
+COMMAND: my-tweets undefined
+RESULT: 
+The reason I started playing guitar was to impress girls and my father. Now I play in The Born Agains. Where did I stray?
+Created on: Thu Apr 05 21:00:15 +0000 2018
+COMMAND: my-tweets undefined
+RESULT: 
+Born in this pigsty in my new pants and shirt  https://t.co/U7vBxCyiYv
+Created on: Wed Apr 04 21:41:51 +0000 2018
+COMMAND: my-tweets undefined
+RESULT: 
+The Two-Headed Boy With the Thorn in His Arab Strap
+Created on: Tue Apr 03 22:04:23 +0000 2018
+COMMAND: my-tweets undefined
+RESULT: 
+https://t.co/FIuzAWKoHx
+Created on: Tue Apr 03 17:54:10 +0000 2018
+COMMAND: my-tweets undefined
+RESULT: 
+Overall interesting first step but I can’t imagine this being someone’s favorite Billy C record.
+Created on: Tue Apr 03 16:38:45 +0000 2018
+COMMAND: my-tweets undefined
+RESULT: 
+Wish my noise/lo-fi knowledge was a little better to know how this fit in at the time. With how far home recording… https://t.co/hJviTymqnd
+Created on: Tue Apr 03 16:38:45 +0000 2018
+COMMAND: my-tweets undefined
+RESULT: 
+Didn’t know how noisy this early stuff is. Enjoyed it but not sure how much of that is seeing the groundwork for future Bill.
+Created on: Tue Apr 03 16:22:05 +0000 2018
+COMMAND: my-tweets undefined
+RESULT: 
+Since Drag City has put their catalog on Spotify, I’m going to go through the Smog/Bill Callahan discography! One o… https://t.co/eBFvSNTjVR
+Created on: Tue Apr 03 16:12:54 +0000 2018
+COMMAND: spotify-this-song The Born Again
+RESULT: 
+Artist: The Notorious B.I.G.
+Name: Dead Wrong (feat. Eminem)
+Link: https://p.scdn.co/mp3-preview/0bbacf9983140b4a55d92729976e0f11a065bbbe?cid=7c683a1ac1ab4738ad20095957424250
+Album: Born Again
+COMMAND: movie-this Mulholland Drive
+RESULT: 
+Title: Mulholland Drive
+Released: 2001
+IMDB Rating: 8.0
+Rotten Tomatoes Rating: 83%
+Country: France, USA
+Language: English, Spanish
+Plot: After a car wreck on the winding Mulholland Drive renders a woman amnesiac, she and a perky Hollywood-hopeful search for clues and answers across Los Angeles in a twisting venture beyond dreams and reality.
+Starring: Naomi Watts, Jeanne Bates, Dan Birnbaum, Laura Harring
